@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PrechargeParts")(type "KiCad")(uri "C:/Users/hoppeb/Documents/GitHub/BatteryModeling/Precharge Circuit/Parts/PrechargeParts.kicad_sym")(options "")(descr ""))
+)
