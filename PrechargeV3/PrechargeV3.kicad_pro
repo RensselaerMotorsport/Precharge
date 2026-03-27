@@ -48,60 +48,11 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 1.5
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "silk_overlap|122000000|102557092|60d7be3b-e8fc-421c-86ee-d366a497d06e|1773cb6c-40db-4fcf-9941-3ab3b8617fa9",
-          ""
-        ],
-        [
-          "silk_overlap|122000000|75651200|f18389a3-31af-4ebf-aa10-edb5a76b38d4|1773cb6c-40db-4fcf-9941-3ab3b8617fa9",
-          ""
-        ],
-        [
-          "silk_overlap|122000000|81848800|7534ee94-dc1e-41ba-87e0-c84413459f39|1773cb6c-40db-4fcf-9941-3ab3b8617fa9",
-          ""
-        ],
-        [
-          "silk_overlap|122000000|88901200|6f25e1cc-fc10-437e-a122-65e9347784ac|1773cb6c-40db-4fcf-9941-3ab3b8617fa9",
-          ""
-        ],
-        [
-          "silk_overlap|122000000|95098800|1773cb6c-40db-4fcf-9941-3ab3b8617fa9|7ca15596-b018-4116-8465-043fa51af02b",
-          ""
-        ],
-        [
-          "silk_overlap|122000000|96303088|1fd56136-2a95-4f39-9460-3390eb4c9222|1773cb6c-40db-4fcf-9941-3ab3b8617fa9",
-          ""
-        ],
-        [
-          "silk_overlap|127250000|102557092|53d40889-e91c-4113-bae3-d2261cd74be0|60d7be3b-e8fc-421c-86ee-d366a497d06e",
-          ""
-        ],
-        [
-          "silk_overlap|127250000|75651200|f18389a3-31af-4ebf-aa10-edb5a76b38d4|53d40889-e91c-4113-bae3-d2261cd74be0",
-          ""
-        ],
-        [
-          "silk_overlap|127250000|81848800|7534ee94-dc1e-41ba-87e0-c84413459f39|53d40889-e91c-4113-bae3-d2261cd74be0",
-          ""
-        ],
-        [
-          "silk_overlap|127250000|88901200|6f25e1cc-fc10-437e-a122-65e9347784ac|53d40889-e91c-4113-bae3-d2261cd74be0",
-          ""
-        ],
-        [
-          "silk_overlap|127250000|95098800|53d40889-e91c-4113-bae3-d2261cd74be0|7ca15596-b018-4116-8465-043fa51af02b",
-          ""
-        ],
-        [
-          "silk_overlap|127250000|96303088|53d40889-e91c-4113-bae3-d2261cd74be0|1fd56136-2a95-4f39-9460-3390eb4c9222",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -643,6 +594,24 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],
