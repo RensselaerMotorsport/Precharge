@@ -1,0 +1,15 @@
+/*
+ * Configuration of precharge code
+ *
+ */
+
+#ifndef __config.h
+#define __config.h
+
+
+
+
+
+
+
+#endif

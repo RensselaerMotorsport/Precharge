@@ -1,0 +1,14 @@
+/*
+ * Configuration of precharge code
+ *
+ */
+
+#ifndef __CONFIG_H
+#define __CONFIG_H
+
+#define DEBUG_PRINT 1 //0 for no serial print 1 for serial debugging messages
+
+
+
+
+#endif

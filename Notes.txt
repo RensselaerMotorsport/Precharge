@@ -1,0 +1,48 @@
+Precharge V3.0 with stm32
+
+ADC:
+Using adc in scan conversion mode triggered by a timer with DMA
+Triggered by timer 1 Trigger out
+
+IN1: Inverter side sample pin
+IN5: Battery side sample pin
+
+CAN Bus:
+Bus configured at 500kbps
+Data sent x100 for 2 decimal places
+********************************************************************
+* battVolt High * battVolt Low * invVolt High* invVolt Low * State *
+********************************************************************
+
+States:
+0: idle, not signaled to precharge
+1: charging, precharge relay closed
+2: running, precharge completed and +Air closed
+3: battery fault, no battery present
+4: WDT fault, processor reset due to watchdog timer
+
+
+void stringFormat(float v1, float v2, int s,char* res)
+{
+	int pos = 0;
+	int tmp;
+	int len;
+	//prep int for indexing
+	int v1i = (int)(v1*100);
+
+	//get len
+	tmp = v1i;
+	while(tmp > 0)
+	{
+		tmp = tmp/10;
+		len++;
+	}
+
+	//copy into buf
+	int(i = len; i > 0; i++)
+	{
+		buf[i-1] =
+	}
+	int v2i = (int)(v2*100);
+
+}

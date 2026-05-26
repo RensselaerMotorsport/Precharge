@@ -1,0 +1,14 @@
+/*
+ * Configuration of precharge code
+ *
+ */
+
+#ifndef __CONFIG_H
+#define __CONFIG_H
+
+#define SERIAL 1 //0 to disaible serial print, 1 for serial debugging messages
+#define CAN    1 //0 to disaible can messages, 1 to enable them
+
+
+
+#endif
