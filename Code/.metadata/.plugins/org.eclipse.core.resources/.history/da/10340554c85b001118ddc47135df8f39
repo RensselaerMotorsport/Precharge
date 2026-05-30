@@ -225,17 +225,6 @@ int main(void)
 				 HAL_GPIO_WritePin(Pcg_Relay_GPIO_Port,Pcg_Relay_Pin,GPIO_PIN_RESET);
 			 }
 			 break;
-		 case 3:
-			 if(battVolt > (BATT_THRESH + 0.1))
-			 {
-				 state = 0;
-			 }
-			 else
-			 {
-				 HAL_GPIO_WritePin(Air_Relay_GPIO_Port,Air_Relay_Pin,GPIO_PIN_RESET);
-				 HAL_GPIO_WritePin(Pcg_Relay_GPIO_Port,Pcg_Relay_Pin,GPIO_PIN_RESET);
-			 }
-			 break;
 		 }
 
 	 }

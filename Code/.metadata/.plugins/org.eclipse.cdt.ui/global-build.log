@@ -73,3 +73,59 @@ Finished building: default.size.stdout
  
 Finished building: V3.list
  
+22:53:18 **** Build of configuration Debug for project V3 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F042x6 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "V3.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\ae900\Documents\GitHub\Precharge\Code\V3\STM32F042K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="V3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: V3.elf
+ 
+arm-none-eabi-size  V3.elf 
+arm-none-eabi-objdump -h -S V3.elf  > "V3.list"
+   text	   data	    bss	    dec	    hex	filename
+  22588	     92	   2364	  25044	   61d4	V3.elf
+Finished building: default.size.stdout
+ 
+Finished building: V3.list
+ 
+22:56:10 **** Incremental Build of configuration Debug for project V3 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F042x6 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "V3.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\ae900\Documents\GitHub\Precharge\Code\V3\STM32F042K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="V3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: V3.elf
+ 
+arm-none-eabi-size  V3.elf 
+arm-none-eabi-objdump -h -S V3.elf  > "V3.list"
+   text	   data	    bss	    dec	    hex	filename
+  22596	     92	   2364	  25052	   61dc	V3.elf
+Finished building: default.size.stdout
+ 
+Finished building: V3.list
+ 
+22:58:20 **** Incremental Build of configuration Debug for project V3 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F042x6 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "V3.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\ae900\Documents\GitHub\Precharge\Code\V3\STM32F042K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="V3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: V3.elf
+ 
+arm-none-eabi-size  V3.elf 
+arm-none-eabi-objdump -h -S V3.elf  > "V3.list"
+   text	   data	    bss	    dec	    hex	filename
+  22592	     92	   2364	  25048	   61d8	V3.elf
+Finished building: default.size.stdout
+ 
+Finished building: V3.list
+ 
+23:01:09 **** Incremental Build of configuration Debug for project V3 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F042x6 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "V3.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\ae900\Documents\GitHub\Precharge\Code\V3\STM32F042K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="V3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: V3.elf
+ 
+arm-none-eabi-size  V3.elf 
+arm-none-eabi-objdump -h -S V3.elf  > "V3.list"
+   text	   data	    bss	    dec	    hex	filename
+  22120	     92	   2364	  24576	   6000	V3.elf
+Finished building: default.size.stdout
+ 
+Finished building: V3.list
+ 

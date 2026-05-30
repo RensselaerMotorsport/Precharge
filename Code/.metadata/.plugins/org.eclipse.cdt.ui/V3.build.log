@@ -1,29 +1,17 @@
-22:34:35 **** Incremental Build of configuration Debug for project V3 ****
+23:01:09 **** Incremental Build of configuration Debug for project V3 ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F042x6 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:167:64: warning: '%d' directive writing between 1 and 9 bytes into a region of size between 7 and 17 [-Wformat-overflow=]
-  167 |                          sprintf(buf,"Battery: %d.%d Inverter: %d.%d State: %d\r\n",(int)(battVolt*100)/100,(int)(battVolt*100)%100,(int)(invVolt*100)/100,(int)(invVolt*100)%100,state);
-      |                                                                ^~
-../Core/Src/main.c:167:38: note: directive argument in the range [-21474836, 21474836]
-  167 |                          sprintf(buf,"Battery: %d.%d Inverter: %d.%d State: %d\r\n",(int)(battVolt*100)/100,(int)(battVolt*100)%100,(int)(invVolt*100)/100,(int)(invVolt*100)%100,state);
-      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../Core/Src/main.c:167:38: note: directive argument in the range [-99, 99]
-../Core/Src/main.c:167:38: note: directive argument in the range [0, 255]
-../Core/Src/main.c:167:26: note: 'sprintf' output between 38 and 60 bytes into a destination of size 40
-  167 |                          sprintf(buf,"Battery: %d.%d Inverter: %d.%d State: %d\r\n",(int)(battVolt*100)/100,(int)(battVolt*100)%100,(int)(invVolt*100)/100,(int)(invVolt*100)%100,state);
-      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 arm-none-eabi-gcc -o "V3.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\ae900\Documents\GitHub\Precharge\Code\V3\STM32F042K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="V3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: V3.elf
  
 arm-none-eabi-size  V3.elf 
 arm-none-eabi-objdump -h -S V3.elf  > "V3.list"
    text	   data	    bss	    dec	    hex	filename
-  23088	     92	   2364	  25544	   63c8	V3.elf
+  22120	     92	   2364	  24576	   6000	V3.elf
 Finished building: default.size.stdout
  
 Finished building: V3.list
  
 
-22:34:36 Build Finished. 0 errors, 1 warnings. (took 1s.399ms)
+23:01:10 Build Finished. 0 errors, 0 warnings. (took 1s.510ms)
 

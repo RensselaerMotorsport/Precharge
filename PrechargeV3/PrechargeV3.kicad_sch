@@ -5097,6 +5097,26 @@
 		)
 		(uuid "dda0009e-4818-4708-b175-6f0cf16df68c")
 	)
+	(text_box "R11,R12/R24,R23 = 1.5k\nR9,R10/R22,R21 = 909\n"
+		(exclude_from_sim no)
+		(at 76.454 168.91 0)
+		(size 33.782 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2a9e2656-3561-4494-bf45-43189f0b2058")
+	)
 	(junction
 		(at 106.68 107.95)
 		(diameter 0)
@@ -8414,7 +8434,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "9.09k"
 			(at 122.936 116.332 90)
 			(effects
 				(font
@@ -8723,7 +8743,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "9.09k"
 			(at 117.094 86.868 90)
 			(effects
 				(font
@@ -9425,7 +9445,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "9.09k"
 			(at 123.19 81.026 90)
 			(effects
 				(font
@@ -11154,7 +11174,7 @@
 				)
 			)
 		)
-		(property "Value" "2.5k"
+		(property "Value" "15k"
 			(at 133.604 89.662 0)
 			(effects
 				(font
@@ -11572,7 +11592,7 @@
 				)
 			)
 		)
-		(property "Value" "2.5k"
+		(property "Value" "15k"
 			(at 133.35 125.476 0)
 			(effects
 				(font
@@ -13218,7 +13238,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.01k"
 			(at 273.05 146.0499 0)
 			(effects
 				(font
@@ -13931,7 +13951,7 @@
 				)
 			)
 		)
-		(property "Value" "2.5k"
+		(property "Value" "15k"
 			(at 141.986 96.52 90)
 			(effects
 				(font
@@ -14929,7 +14949,7 @@
 				)
 			)
 		)
-		(property "Value" "2.5k"
+		(property "Value" "15k"
 			(at 141.986 61.722 90)
 			(effects
 				(font
@@ -15136,7 +15156,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "9.09k"
 			(at 116.84 120.904 90)
 			(effects
 				(font

@@ -226,7 +226,7 @@ int main(void)
 			 }
 			 break;
 		 case 3:
-			 if(battVolt > (BATT_THRESH + 0.1))
+			 if(battVolt > (BATT_THRESH + 2.0))
 			 {
 				 state = 0;
 			 }
